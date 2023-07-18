@@ -1,0 +1,53 @@
+.title{
+    text-align: center;
+
+}
+
+.currencylayout{
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset{
+    width: 50vw;
+    margin: auto;
+}
+
+.result{
+    border: 1px solid black;
+    width: 210px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    color: black;
+}
+
+.toField{
+    display: flex;
+    justify-content: space-between;
+    background-color: #a4a0bb;
+}
+
+.fromField{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    background-color: #a4a0bb;
+}
+#baseAmount{
+    background-color: lightgrey;
+    height: 28px;
+    color: black;
+    border-radius: 6px;
+    width: 210px;
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+body{
+    background-image: url("https://github.com/brian-w119/my-images/blob/main/imageOfWorld.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
