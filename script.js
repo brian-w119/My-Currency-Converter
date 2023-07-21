@@ -2,7 +2,7 @@
 //API Providers
 
 const ipData = {  // get users local currency
-    key: "13913952c49cd907f6b9a168b62b0b2364ba3eb022e303cd6aec6afb8cd",
+    key: "4588a4af48694c3588591ea148aafc881ae5012e5afa28daf80a692d",
     baseURL: "https://api.ipdata.co",
     currency: function(){
         return `${this.baseURL}/currency?api-key=${this.key}`;
@@ -25,3 +25,11 @@ const currencyLayer = {
       
 
     };
+
+    // get users local currency
+    async function getUserCurrency(){
+        const response = await fetch(ipData.currency());
+        const currency = await response.json();
+        console.log(currency);
+    }
+    getUserCurrency();
