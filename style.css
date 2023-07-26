@@ -52,11 +52,18 @@ body{
     background-size: cover;
 }
 
-.exchangeRate{
+.exchange-Rate{
     background-color: white;
-    width: 200px;
-    height: 80px;
+    width: 150px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -50px;
+    
+}
+
+.exchange-Rate{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
 }

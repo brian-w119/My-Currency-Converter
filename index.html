@@ -10,18 +10,18 @@
   <body>
    
     <div class="title">
-      <h1>My Currency Converter</h1>
+      <h2>My Currency Converter</h2>
     </div>
 
-    <div class="exchangeRate">
-       <p>---equals</p>
-       <h1>---</h1>
+    <div class="exchange-Rate">
+       <p class="defaultCurr">---equals</p>
+       <p class="targetCurr">---</p>
     </div>
 
     <fieldset class="fromField">
         <legend>From</legend>
         <div class="inputDisplay">
-          <input type="text" id="baseAmount" name="baseAmount" type="text">
+          <input type="number" id="baseAmount" name="baseAmount" value="1">
         </div>    
       
 
@@ -35,10 +35,11 @@
         <div class="displayOutput">
           <div class="result"></div>
         </div>
+         
        
        
           <select style="width: 300px" name="outputCurrency" id="outputCurrency">
-            <option  value="">Select a Currency</option>
+            <option value="">Select a Currency</option>
           </select>
       </fieldset>
       <script src="script.js"></script>
